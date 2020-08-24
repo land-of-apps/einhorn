@@ -1,11 +1,6 @@
 # Turn on validation, so we can use import:
 version: ~> 1.0
 
-# This is to work around the version of bundler installed in Travis and
-# https://github.com/bundler/bundler/issues/3558
-before_install:
-  - gem update bundler
-
 import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
